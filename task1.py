@@ -5,15 +5,19 @@
 # - Some of your results could look like this:
 
 
-sum=0
-
 for _ in range(3):
     number1= int(input("enter the firs number: "))
     number2=int(input("enter the second number: "))
     number3= int(input("enter the third number: "))
-    sum=number1+number2+number3
-    print(sum, "sum is here")
+    total_sum=number1+number2+number3
+    
+    if number1== number2==number3:
+        triple_sum= total_sum*3
+        print(triple_sum, "triple_ sum is here")
+    else:
+        print(sum, "different number")
     break
+
 
 
 

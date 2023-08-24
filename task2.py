@@ -10,7 +10,7 @@ second_number = int(input("Second number: "))
 
 if first_number > second_number:
     difference = (first_number - second_number) * 2
-    print(difference, "difference")
+    print(difference, "difference") 
     print("The result of calculation is", difference)
 else:
     difference = abs(first_number - second_number)
